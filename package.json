@@ -1,0 +1,40 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "expo":  "",
+    "expo-camera":  "~13.4.4",
+    "expo-splash-screen":  "~0.20.5",
+    "expo-updates": "",
+    "react":  "",
+    "react-dom":  "",
+    "react-native":  "",
+    "react-native-gesture-handler":  "~2.12.0",
+    "react-native-permissions": "",
+    "react-native-reanimated": "~3.3.0",
+    "react-native-screens": "~3.22.0 ",
+    "react-native-unimodules":  "",
+    "react-native-web": "",
+    "react-native-web-webview": "",
+    "react-native-webview": "13.2.2",
+    "react-native-webview-android":  ""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "babel-preset-expo": "~8.3.0",
+    "jest-expo": "~41.0.0",
+    "typescript": ""
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true
+}
